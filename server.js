@@ -9,10 +9,9 @@
 // npm install contentful-cli //access data from contentful
 
 
-
+require('dotenv').config();
 const express = require('express'); 
 const app = express(); 
-require('dotenv').config() 
 // console.log(process.env) // working 
 const port = 8001 
 const bodyParser = require('body-parser'); 
